@@ -5,6 +5,7 @@
     justify-content: center;
 }
 .card {
+    color: rgb(46, 46, 46);
     border: 2px solid blueviolet;
     padding: 16px;
     border-radius: 16px;
@@ -25,6 +26,7 @@
 
 .card img {
     width: 100%;
+    height: 50%;
     border-radius: 16px;
 }
 
@@ -37,9 +39,9 @@
 }
 
 .card .tags div {
-    background-color: rgb(181, 188, 255);
-    border: 2px solid rgb(79, 97, 255);
-    color: rgb(53, 53, 53);
+    background-color: rgb(197, 203, 255);
+    border: 2px solid rgb(91, 107, 255);
+    color: rgb(46, 46, 46);
     padding: 4px 8px;
     border-radius: 8px;
     font-size: 16px;
