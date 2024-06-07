@@ -4,6 +4,9 @@
 
 > npm create vite@latest
 
+- vite
+- javascript
+
 > npm install
 
 > npm run dev
