@@ -20,6 +20,7 @@ function App() {
     </>
   )
 }
+
 export default App
 ```
 ### Deletar tudo do ***App.css*** e ***index.css***
@@ -39,11 +40,13 @@ function App() {
     </>
   )
 }
+
 export default App
 ```
 ### Formatar o ***index.html***
 ```html
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -51,10 +54,12 @@ export default App
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+
 </html>
 ```
 ### Estilizações básicas

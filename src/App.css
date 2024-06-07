@@ -1,10 +1,10 @@
-.card{
+.card {
     border: 1px solid rgb(80, 80, 80);
     padding: 16px;
     border-radius: 16px;
     width: 330px;
     text-align: center;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(245, 226, 255);
     transition: all 0.15s;
 }
 
@@ -12,12 +12,30 @@
     box-shadow: 3px 3px rgb(129, 129, 129);
     translate: -3px -3px;
 }
-.car h2{
-    font-size: 32px;
-    font-family: sans-serif;
+.card h2{
+    font-family: 'Courier New', Courier, monospace;
+    border-left: 10px solid blueviolet;
 }
 
 .card img {
     width: 100%;
     border-radius: 16px;
+}
+
+.card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 16px;
+}
+
+.card .tags div {
+    background-color: rgb(139, 150, 255);
+    color: black;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
