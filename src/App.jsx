@@ -23,12 +23,20 @@ function App() {
     specie: 'Scatter',
     origin: 'Points'
   }
+  const item4 = {
+    title: 'Normal Curve Graph',
+    image: 'https://i0.wp.com/statisticsbyjim.com/wp-content/uploads/2018/09/normal_100.png?w=576&ssl=1',
+    status: 'Nice',
+    specie: 'Statistic',
+    origin: 'Curve'
+  }
   return (
     <>
     <div className="cards">
       <Card item = {item1} />
       <Card item = {item2} />
       <Card item = {item3} />
+      <Card item = {item4} />
     </div>
     </>
   )

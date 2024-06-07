@@ -10,12 +10,14 @@
     padding: 16px;
     border-radius: 16px;
     width: 330px;
+    max-height: 400px;
     text-align: center;
     background-color: rgb(245, 226, 255);
     transition: all 0.15s;
 }
 
 .card:hover {
+    cursor: pointer;
     box-shadow: 3px 3px rgb(129, 129, 129);
     translate: -3px -3px;
 }
@@ -47,4 +49,11 @@
     font-size: 16px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    transition: all 0.15s;
+}
+.card .tags div:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(129, 129, 129);
+    translate: -3px -3px;
 }
