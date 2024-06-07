@@ -1,3 +1,7 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 .card {
     border: 1px solid rgb(80, 80, 80);
     padding: 16px;
@@ -13,7 +17,7 @@
     translate: -3px -3px;
 }
 .card h2{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-left: 10px solid blueviolet;
 }
 
@@ -32,10 +36,10 @@
 
 .card .tags div {
     background-color: rgb(139, 150, 255);
-    color: black;
+    color: rgb(53, 53, 53);
     padding: 4px 8px;
     border-radius: 8px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
