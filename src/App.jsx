@@ -2,6 +2,7 @@ import './App.css'
 import Card from './components/Card/Card'
 
 function App() {
+  
   const item1 = {
     title: 'BloxPlot Graph',
     image: 'https://doc.arcgis.com/en/insights/latest/create/GUID-5C7AAF44-C609-472D-9193-0E9B23C6B68F-web.png',
@@ -30,13 +31,16 @@ function App() {
     specie: 'Statistic',
     origin: 'Curve'
   }
+  // Listas Arrays
+  const itens = [item1, item2, item3, item4]
   return (
     <>
     <div className="cards">
+      {/* Para cada um dos itens da lista, exibir um card*/}
+      {itens.map(function (elemento) {
+        return <Card item={elemento}/>
+      })}
       <Card item = {item1} />
-      <Card item = {item2} />
-      <Card item = {item3} />
-      <Card item = {item4} />
     </div>
     </>
   )
