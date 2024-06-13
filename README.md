@@ -91,3 +91,6 @@ export default App
     border-radius: 16px;
 }
 ```
+### Deploy no Render
+https://render.com/
+Apenas em Publish directory: dist
