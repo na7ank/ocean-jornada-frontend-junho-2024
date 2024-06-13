@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './App.css'
 import Card from './components/Card/Card'
 
@@ -22,18 +23,26 @@ function App() {
 
   // // Listas (Arrays)
   // const itens = [item1, item2, item3]
+  const [itens, setItens] = useState([]);
 
-  const itens = [];
-  const apiUrl = 'https://rickandmortyapi.com/api/character';
-  const response = fetch(apiUrl);
-  console.log(response);
+  async function carregarDados() {
+    const apiUrl = 'https://rickandmortyapi.com/api/character';
+    const response = await fetch(apiUrl); //retorna promise usa await
+    const body = await response.json(); // retorna promise usa await
+    const results = body.results;
+    setItens(results);
+  }
   
+  useEffect(function(){
+    carregarDados();
+  }, [])
+
+
   return (
     <>
       <div className="cards">
         {/*
         Para cada um dos itens da lista, exibir um Card 
-
         -'item' contem os dados.
         -'key' é necessária para diferenciar o elemento.
         */}
