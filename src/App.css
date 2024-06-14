@@ -13,7 +13,6 @@
     padding: 16px;
     border-radius: 16px;
     width: 300px;
-    max-height: 430px;
     text-align: center;
     background-color: rgb(245, 226, 255);
     transition: all 0.15s;
@@ -21,7 +20,7 @@
 
 .card:hover {
     cursor: pointer;
-    box-shadow: 3px 3px rgb(129, 129, 129);
+    box-shadow: 3px 3px rgb(55, 0, 71);
     translate: -3px -3px;
 }
 .card h2{
@@ -37,6 +36,7 @@
 
 .card .tags {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;

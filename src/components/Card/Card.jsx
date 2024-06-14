@@ -9,9 +9,9 @@ export default function Card(props) {
         <h2>{item.name}</h2>
         <img src={item.image} />
         <div className="tags">
-          <div>Status: Vivo</div>
-          <div>Espécie: Humana</div>
-          <div>Origem: Terra C-137</div>
+          <div>Status: {item.status}</div>
+          <div>Espécie: {item.species}</div>
+          <div>Origem: {item.origin.name}</div>
         </div>
       </div>
     </Link>
