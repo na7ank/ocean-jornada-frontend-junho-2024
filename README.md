@@ -94,3 +94,5 @@ export default App
 ### Deploy no Render
 https://render.com/
 Apenas em Publish directory: dist
+
+### npm i react-router-dom
