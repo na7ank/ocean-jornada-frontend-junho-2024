@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;

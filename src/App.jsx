@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     path: '/',
     element: <Home />
   },
-  {  
+  {
     path: '/item/:itemId',
     element: <ViewItemById />
   }
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </>
   )
 }

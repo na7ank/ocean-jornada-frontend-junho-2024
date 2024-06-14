@@ -13,8 +13,8 @@ function Home() {
     const results = body.results;
     setItens(results);
   }
-  
-  useEffect(function(){
+
+  useEffect(function () {
     carregarDados();
   }, [])
 
