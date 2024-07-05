@@ -2,16 +2,16 @@
 
 ### Comandos iniciais no Terminal
 
-> npm create vite@latest
+> ``npm create vite@latest``
 
 - vite
 - javascript
 
-> npm install
+> ``npm install``
 
-> npm run dev
+> ``npm run dev``
 
-### Formatar ***App.jsx***
+### Formatar ``App.jsx``
 ```javascript
 import './App.css'
 
@@ -26,7 +26,7 @@ function App() {
 
 export default App
 ```
-### Deletar tudo do ***App.css*** e ***index.css***
+### Deletar tudo do ``App.css`` e ``index.css``
 
 ### Criar uma estrutura básica
 ```javascript
@@ -46,7 +46,7 @@ function App() {
 
 export default App
 ```
-### Formatar o ***index.html***
+### Formatar o ``index.html``
 ```html
 <!doctype html>
 
@@ -95,4 +95,4 @@ export default App
 https://render.com/
 Apenas em Publish directory: dist
 
-### npm i react-router-dom
+> ``npm i react-router-dom``
