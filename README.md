@@ -2,7 +2,7 @@
 # Sobre Vite-React<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="50" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50" height="40"/>
           
           
-Vite **não é um framework do React**. Em vez disso, Vite é uma ferramenta de build e desenvolvimento que pode ser usada com React (ou outras tecnologias de front-end, como Vue, Svelte, etc.). Ele não substitui o React, mas sim facilita o processo de desenvolvimento e construção de projetos que utilizam o React.
+Vite é uma ferramenta de build e desenvolvimento que pode ser usada com React (ou outras tecnologias de front-end, como Vue, Svelte, etc.). Ele não substitui o React, mas sim facilita o processo de desenvolvimento e construção de projetos que utilizam o React.
 
 Para entender melhor, aqui está uma explicação detalhada:
 
