@@ -26,7 +26,7 @@ Vite é uma ferramenta de build e desenvolvimento que pode ser usada com React (
 - **React** é a biblioteca que você usa para criar a interface de usuário.
 - Você pode usar **Vite** para otimizar e melhorar o fluxo de trabalho de desenvolvimento ao trabalhar com **React**.
 
-Espero que isso esclareça!
+
 # Visão geral do passo a passo
 
 ### Comandos iniciais no Terminal
