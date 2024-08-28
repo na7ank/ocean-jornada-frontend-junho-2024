@@ -4,8 +4,6 @@
           
 Vite é uma ferramenta de build e desenvolvimento que pode ser usada com React (ou outras tecnologias de front-end, como Vue, Svelte, etc.). Ele não substitui o React, mas sim facilita o processo de desenvolvimento e construção de projetos que utilizam o React.
 
-Para entender melhor, aqui está uma explicação detalhada:
-
 ### 1. **O que é React?**
    - **React** é uma biblioteca JavaScript para criar interfaces de usuário. Ele foca na construção de componentes reutilizáveis que podem ser renderizados no navegador ou em outras plataformas (como mobile, com React Native).
    - **React** cuida da lógica de renderização, do estado da interface, e da gestão de eventos.
