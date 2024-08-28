@@ -1,7 +1,9 @@
 
-# Sobre Vite-React<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="50" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50" height="40"/>
-          
-          
+#  Praticas com React / Vite - Criando um frontend e comunicando com api<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="50" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50" height="40"/>
+      
+![Amostras](Capturar.PNG)
+
+# Sobre Vite-React
 Vite é uma ferramenta de build e desenvolvimento que pode ser usada com React (ou outras tecnologias de front-end, como Vue, Svelte, etc.). Ele não substitui o React, mas sim facilita o processo de desenvolvimento e construção de projetos que utilizam o React.
 
 ### 1. **O que é React?**
